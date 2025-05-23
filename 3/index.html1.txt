@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فروشگاه پارسا</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Tahoma, sans-serif;
+      direction: rtl;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #ef394e;
+      padding: 15px;
+      color: white;
+      text-align: center;
+      font-size: 24px;
+    }
+    .search-bar {
+      padding: 10px;
+      text-align: center;
+      background: white;
+      border-bottom: 1px solid #ddd;
+    }
+    .search-bar input {
+      padding: 8px;
+      width: 60%;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      width: 250px;
+      margin: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .product img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin: 10px 0;
+    }
+    .product p {
+      color: green;
+      font-weight: bold;
+    }
+    .product button {
+      background-color: #ef394e;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🛒 فروشگاه پارسا</header>
+
+  <div class="search-bar">
+    <input type="text" placeholder="جستجو در محصولات...">
+  </div>
+
+  <div class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/250x160?text=Samsung+A54" alt="گوشی">
+      <h3>گوشی سامسونگ A54</h3>
+      <p>۱۵٬۰۰۰٬۰۰۰ تومان</p>
+      <button>افزودن به سبد</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x160?text=Smart+Watch" alt="ساعت">
+      <h3>ساعت هوشمند</h3>
+      <p>۳٬۰۰۰٬۰۰۰ تومان</p>
+      <button>افزودن به سبد</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x160?text=Headphones" alt="هدفون">
+      <h3>هدفون بلوتوثی</h3>
+      <p>۸۵۰٬۰۰۰ تومان</p>
+      <button>افزودن به سبد</button>
+    </div>
+  </div>
+
+</body>
+</html>
